@@ -1,0 +1,29 @@
+# arch/arm64/mach-exynos/Kconfig
+#
+# Copyright (c) 2016 Samsung Electronics Co., Ltd.
+#		http://www.samsung.com/
+#
+# Licensed under GPLv2
+
+# Configuration options for the EXYNOS7
+
+if ARCH_EXYNOS
+
+menu "SAMSUNG EXYNOS SoCs Support"
+
+choice
+	prompt "Exynos device target"
+	default MACH_EXYNOS7570_NONE
+
+config MACH_EXYNOS7570_NONE
+	bool "None"
+
+config MACH_EXYNOS7570_ON5XELTE_MEA_OPEN
+	bool "Galaxy J5 Prime"
+	select EXYNOS_DTBTOOL
+
+endchoice
+
+endmenu
+
+endif

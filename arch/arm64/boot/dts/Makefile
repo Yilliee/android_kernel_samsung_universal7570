@@ -1,5 +1,5 @@
 # Device specific DTBs
-dtb-$(CONFIG_MACH_EXYNOS7570_ON5XELTE_MEA_OPEN) += exynos7570-on5xelte_swa_open_00.dtb exynos7570-on5xelte_swa_open_01.dtb exynos7570-on5xelte_swa_open_02.dtb exynos7570-on5xelte_swa_open_03.dtb exynos7570-on5xelte_swa_open_04.dtb
+dtb-$(CONFIG_MACH_EXYNOS7570_ON5XELTE_SWA_OPEN) += exynos7570-on5xelte_swa_open_00.dtb exynos7570-on5xelte_swa_open_01.dtb exynos7570-on5xelte_swa_open_02.dtb exynos7570-on5xelte_swa_open_03.dtb exynos7570-on5xelte_swa_open_04.dtb
 
 targets += dtbs
 

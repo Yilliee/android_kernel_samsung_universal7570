@@ -18,7 +18,7 @@ choice
 config MACH_EXYNOS7570_NONE
 	bool "None"
 
-config MACH_EXYNOS7570_ON5XELTE_MEA_OPEN
+config MACH_EXYNOS7570_ON5XELTE_SWA_OPEN
 	bool "Galaxy J5 Prime"
 	select EXYNOS_DTBTOOL
 

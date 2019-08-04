@@ -1,4 +1,4 @@
-# scripts/dtbtool_exynos makefile
+# scripts/dtbTool makefile
 
 hostprogs-y	:= dtbtool
 always		:= $(hostprogs-y)

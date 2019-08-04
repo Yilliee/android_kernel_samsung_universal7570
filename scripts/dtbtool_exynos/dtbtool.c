@@ -53,6 +53,8 @@
 
 #define DTBH_MAGIC		"DTBH"
 #define DTBH_VERSION	2
+#define DTBH_PLATFORM	"android"
+#define DTBH_SUBTYPE	"samsung"
 
 struct dt_blob;
 
